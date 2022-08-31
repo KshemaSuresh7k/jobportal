@@ -1,0 +1,10 @@
+<h1>WELCOME</h1>
+
+
+<head>
+    <a class="active" href="/home">Home</a>
+    {% for i in cr %}
+    <a class="active" href="{% url 'update' i.id%}">Update</a>
+    
+    {%endfor%}
+  </head>  

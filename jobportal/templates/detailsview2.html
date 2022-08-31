@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <a class="active" href="/home">Home</a>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+    
+        <!-- Background image -->
+<div style="background-image: url();"></div>
+<!-- Background image -->
+        <form action=""method="POST"
+        enctype="multipart/form-data">
+        {%csrf_token%}
+        <h1 align ="center">DETAILS OF  {{cr.name}}</h1>
+    
+        <label for=""><h1 style="color:red"</h1>name:{{cr.name}}</label><br>
+        <br>
+        <br>
+        <label for="">address:{{cr.address}}</label><br>
+        <br>
+        <br>
+        <label for="">EMAIL:{{cr.email}}</label><br>
+    
+    </form>
+    </body>
+</html>
